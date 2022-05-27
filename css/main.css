@@ -283,6 +283,21 @@ summary {
   display: list-item;
 }
 
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -1157,20 +1172,5 @@ summary {
   display: block;
   margin: 0 auto;
   padding: 10px 55px;
-}
-
-body {
-  background-color: #ffffff;
-  color: #212121;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 /*# sourceMappingURL=main.css.map */

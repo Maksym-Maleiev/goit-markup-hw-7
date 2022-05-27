@@ -2,6 +2,7 @@
 @import './utils/variables';
 @import './utils/placeholders';
 @import './base/normalize';
+@import './base/styles';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 @import './components/section';
 @import './components/container';
@@ -17,19 +18,3 @@
 @import './components/sign-up';
 @import './components/filter';
 @import './components/cars-set';
-
-body {
-  background-color: $primary-bg-color;
-  color: $primary-text-color;
-
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
